@@ -1,4 +1,3 @@
-#!/bin/bas
 #include<stdio.h>
 
 int main(void)
