@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * list _len - elements in linked list_t.
+ * list_len - elements in linked list_t.
  * @h: name of the list
  * Return: number of nodes
 */
