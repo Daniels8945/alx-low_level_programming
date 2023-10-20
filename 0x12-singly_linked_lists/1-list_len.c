@@ -6,7 +6,7 @@
 /**
  * list_len - elements in linked list_t.
  * @h: name of the list
- * Return: number of elements
+ * Return: number of nodes
 */
 size_t list_len(const list_t *h)
 {
