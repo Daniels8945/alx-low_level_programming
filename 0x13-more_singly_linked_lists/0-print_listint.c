@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 #include "lists.h"
 
@@ -9,14 +7,10 @@
  *
  * Return: The number of nodes
 */
-struct listint_t
-{
-	int n;
-	struct listint_t *next;
-} listint_t;
-
 size_t print_listint(const listint_t *h)
 {
+	size_t count = 0;
+
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
