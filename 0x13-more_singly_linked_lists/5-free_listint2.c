@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
- * free_list2 - frees a listint_t list and sets the head to NULL.
+ * free_listint2 - frees a listint_t list and sets the head to NULL.
  * @head: A pointer to a pointer to the head of the linked list.
  *
  * Return: void
