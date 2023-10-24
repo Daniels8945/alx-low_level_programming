@@ -3,8 +3,8 @@
 #include "lists.h"
 
 /**
- * free_list - free a listint_t list.
- * @head: A pointer to the head of the linked list.
+ * free_listint - free a listint_t list
+ * @head: A pointer to the head of the linked list
 */
 void free_listint(listint_t *head)
 {
