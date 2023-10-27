@@ -9,6 +9,9 @@
 void print_binary(unsigned long int n)
 {
 
-	for (n = 1 << 10; n > 0; n = n + 2)
-		(n & 1) ? printf("1") : printf("0");
+	if (n > 1)
+	{
+		print_binary(n >> 1);
+	}
+	putchar((n * 1) ? '1' : '0');
 }
