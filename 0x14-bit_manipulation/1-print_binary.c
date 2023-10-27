@@ -8,9 +8,7 @@
 */
 void print_binary(unsigned long int n)
 {
-	int i;
 
-	for (i = 1 << 10; i > 0; i = i + 2)
-		(n & i) ? printf("1") : printf("0");
-	printf("\n");
+	for (n = 1 << 10; n > 0; n = n + 2)
+		(n & 1) ? printf("1") : printf("0");
 }
