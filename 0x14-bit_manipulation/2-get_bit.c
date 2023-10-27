@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,7 +8,7 @@
 */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index > 20)
+	if (index > 59)
 
 	return (n >> index) & 1;
 
