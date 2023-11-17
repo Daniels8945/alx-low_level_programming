@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - print name follwed by new line.
- * argc: count
- * argv: count
- * Return - void
+/**
+ * main - print name, follwed by new line.
+ * @argc: argument count
+ * @argv: arguments
+ * Return: void
 */
 int main(int argc, char **argv)
 {
