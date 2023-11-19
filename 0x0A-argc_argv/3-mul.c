@@ -5,12 +5,17 @@
  * main - to multiply two numbers.
  * @argc: argument count
  * @argv: argument vector
- * Return - error
+ * Return: 0
 */
 int main(int argc, char **argv)
 {
-	int i, mul = 1;
+	int i;
+	int mul = 1;
 
+	if (argc < 3)
+	{
+		printf("Error\n");
+	}
 	for (i = 1; i < argc; i++)
 	{
 		mul = mul * strtol(argv[i], NULL, 10);
