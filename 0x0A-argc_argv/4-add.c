@@ -29,7 +29,10 @@ int main(int argc, char **argv)
 			printf("Error\n");
 			return (1);
 		}
+		else
+		{
 		add += n;
+		}
 	}
 	printf("%d\n", add);
 
