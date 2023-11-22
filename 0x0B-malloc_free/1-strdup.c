@@ -9,15 +9,15 @@
 */
 char *_strdup(char *str)
 {
-	char s;
+	char *s;
 
 	if (str == NULL)
 		return (NULL);
-	char s = (char *)malloc(sizeof(str) + 1);
-	strcpy(s, *str);
-	if (s == *str)
+	s = (char *)malloc(sizeof(str) + 1);
+	strcpy(s, str);
+	if (*str)
 	{
-		return (*str);
+		return (s);
 	}
 	else
 	{
