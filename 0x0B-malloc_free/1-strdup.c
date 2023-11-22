@@ -15,13 +15,9 @@ char *_strdup(char *str)
 		return (NULL);
 	s = (char *)malloc(strlen(str) + 1);
 	strcpy(s, str);
-	if (s)
+	if (*str)
 	{
-		return (NULL);
-	}
-	else
-	{
-		return (NULL);
+		return (s);
 	}
 	free(s);
 	return (s);
