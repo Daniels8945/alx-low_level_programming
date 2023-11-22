@@ -10,15 +10,22 @@
 char *_strdup(char *str)
 {
 	char *s;
+	int i, len = 0;
 
 	if (str == NULL)
 		return (NULL);
+
+	while (str[len] != '\0')
+		len++;
+
 	s = (char *)malloc(strlen(str) + 1);
 	strcpy(s, str);
-	if (*str)
-		return (s);
 	if (s == NULL)
 		return (NULL);
-	free(s);
-	return (0);
+
+	for (i = 0; i < len; i++)
+		s[i] = str[i];
+	s[len] = '\0';
+
+	return (s);
 }
