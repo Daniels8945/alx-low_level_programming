@@ -3,9 +3,9 @@
 #include "stdlib.h"
 
 /**
- * _strdup: pointer to a newly allocated space in memory.
+ * _strdup - A pointer to a newly allocated space in memory.
  * @str: duplcate string in  memory
- * Return - NULL if fail
+ * Return: pointer to duplicate
 */
 char *_strdup(char *str)
 {
