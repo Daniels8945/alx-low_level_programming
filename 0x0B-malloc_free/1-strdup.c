@@ -23,6 +23,6 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	return (NULL);
 	free(s);
+	return (0);
 }
