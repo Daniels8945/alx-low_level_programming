@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * str_concat - concat two strings.
  * @s1: first string
- * @s2: second string
+ * @s2: second stringi
  * Return: pointer to newly created memory, which
  * contains the content of s1, follwed by the contents
  * of s2, and NULL terminated. NULL or failure
