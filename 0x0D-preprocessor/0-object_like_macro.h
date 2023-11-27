@@ -1,4 +1,5 @@
 #ifndef SIZE
-#define __SIZE__ 1024
+#define SIZE
+#define SIZE 1024
 
 #endif
