@@ -6,7 +6,15 @@ Technical interview
 """
 
 def island_perimeter(grid):
-        width = len(grid[0])
+    """
+    Defines an island perimeter measuring function.
+    The grid represents water by 0 and land by 1.
+    Args:
+        grid (list): A list of list of integers representing an island.
+    Returns:
+        The perimeter of the island defined in grid.
+    """
+    width = len(grid[0])
     height = len(grid)
     edges = 0
     size = 0
